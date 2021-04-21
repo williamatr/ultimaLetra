@@ -1,0 +1,152 @@
+body {  
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 6vh;  
+  background: rgb(54, 1, 54);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+  width: 100%;
+  background: rgb(54, 1, 54,0.2);
+}
+footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 6vh;
+  margin-top: auto;
+  background: rgb(54, 1, 54);
+}
+
+
+h1{
+  font-size: 2.5em;  
+  margin-left: 1em;
+  text-align: center;
+  color: wheat;
+}
+h2{
+  font-size: 2.3em;
+  color: wheat;
+  font-weight: bold;
+  padding: 0;
+  padding-left: 0.7em;
+  margin: 0;
+  border-radius: .5em;
+  text-align: center;
+}
+h4{
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+  color: wheat;
+}
+
+.containerA {
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 40%;
+  border-radius: 1em;
+  background: rgb(54, 1, 54);
+}
+.containerA__title{
+  display: flex;
+  align-self: top;
+  margin-top: 1em;
+  margin-bottom: 2em;  
+  border-bottom: 0.5em dotted rgba(26, 6, 24, 0.5);
+  width: 100%;
+}
+.containerA__button{
+  display: flex;
+  align-self: bottom;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+.containerA__content input{
+  height: 2.5em;
+  width: 10em;
+  font-size: 1.5em;  
+  background: rgb(252, 250, 222);
+  border-radius: 0.7em;
+}
+.containerA__button button{
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: rgb(41, 41, 41);
+  height: 2.5em;
+  width: 8em;
+  border-radius: 1em;
+  background: rgb(252, 250, 222);
+  transition: all 0.3s;
+}
+.containerA__button button:hover{
+  font-size: 1.2em;
+  background: rgb(252, 250, 222,0.9);
+}
+
+.containerB {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40%;
+  border-radius: 1em;
+  background: rgb(54, 1, 54);
+}
+.containerB__title{
+  display: flex;
+  align-self: top;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  border-bottom: 0.5em dotted rgba(26, 6, 24, 0.5);
+  width: 100%;
+}
+.containerB__button{
+  display: flex;
+  align-self: bottom;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+.containerB__button button{
+  font-size: 1.2em;  
+  font-weight: bolder;
+  color: rgb(41, 41, 41);
+  height: 2.5em;
+  width: 8em;
+  border-radius: 1em;
+  background: rgb(252, 250, 222);
+  transition: all 0.3s;
+}
+.containerB__button button:hover{
+  font-size: 1.2em;
+  background: rgb(252, 250, 222,0.9);
+}
+.containerB__content{
+  font-size: 2em;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  width: 8em;
+  background: rgb(252, 250, 222);
+  border-radius: 0.7em;
+}
+
